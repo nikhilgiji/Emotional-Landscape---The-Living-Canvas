@@ -13,4 +13,28 @@ The multi-sensory space resembling an abstract landscape. It's designed to dynam
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/emotional-landscape.git
+   git clone https://github.com/your-username/emotional-landscape.git 
+
+#!/bin/bash
+
+2. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+
+3. Run the main shell script:
+
+    ```bash
+    python main.py 
+
+## Acknowledgment
+
+We acknowledge and express gratitude to the creators of the [FER2013 dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) for providing the foundational dataset used in training the emotion recognition model. The dataset was instrumental in enhancing the accuracy and robustness of the emotion detection component in the Emotional Landscape - The Living Canvas project.
+
+**FER2013 Dataset:**
+- Dataset Authors: Pierre-Luc Carrier and Aaron Courville
+- Download Link: [FER2013 Dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+- License: [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/)
+
+We appreciate the efforts of the dataset contributors in creating and sharing this valuable resource for advancing the field of emotion recognition.
+
