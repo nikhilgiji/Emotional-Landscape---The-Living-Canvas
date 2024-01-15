@@ -1,0 +1,11 @@
+# General dependencies
+numpy==1.21.0
+opencv-python==4.5.3.56
+pygame==2.0.1
+tensorflow==2.5.0
+keras==2.4.3
+
+# Additional dependencies for data handling and visualization (modify as needed)
+pandas==1.3.0
+matplotlib==3.4.2
+seaborn==0.11.1
