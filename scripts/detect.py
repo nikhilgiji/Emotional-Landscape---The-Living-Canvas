@@ -42,7 +42,6 @@ def detect_emotion(frame):
     # Return the detected emotion
     return detected_emotion
 
-
 # Main loop
 cap = cv2.VideoCapture(0)  # Replace '0' with the camera index or video file path
 running = True
