@@ -6,8 +6,8 @@ from tensorflow.keras.models import load_model
 
 # Load pre-trained models
 face_detector = dlib.get_frontal_face_detector()
-landmark_predictor = dlib.shape_predictor("scripts/shape_predictor_68_face_landmarks.dat")
-emotion_model = load_model("model.h5")  # You need to have a pre-trained model for emotion recognition
+landmark_predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+emotion_model = load_model("/Users/nikhilgiji/Drive D/cs/deep_learning/hci_artistic/model.h5")  # You need to have a pre-trained model for emotion recognition
 
 # Define emotion labels
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
